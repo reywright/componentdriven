@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@componentdriven/button": ["button/button/src/index.ts"],
+      "@componentdriven/ui-storybook": ["packages/ui-storybook/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
